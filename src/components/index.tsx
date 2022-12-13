@@ -189,6 +189,13 @@ import { PS } from "./countries/ps";
 import { PT } from "./countries/pt";
 import { PW } from "./countries/pw";
 import { PY } from "./countries/py";
+import { QA } from "./countries/qa";
+import { RE } from "./countries/re";
+import { RO } from "./countries/ro";
+import { RS } from "./countries/rs";
+import { RU } from "./countries/ru";
+import { RW } from "./countries/rw";
+
 export interface FlagProps {
   code: Lowercase<CountryCode> | Uppercase<CountryCode>;
   className?: string;
@@ -554,6 +561,9 @@ export const Flag = ({
   if (code.toLocaleLowerCase() == "nz")
     return <NZ width={width} height={height} className={className} />;
 
+  if (code.toLocaleLowerCase() == "om")
+    return <OM width={width} height={height} className={className} />;
+
   if (code.toLocaleLowerCase() == "pa")
     return <PA width={width} height={height} className={className} />;
   if (code.toLocaleLowerCase() == "pe")
@@ -591,8 +601,19 @@ export const Flag = ({
   if (code.toLocaleLowerCase() == "py")
     return <PY width={width} height={height} className={className} />;
 
-  if (code.toLocaleLowerCase() == "om")
-    return <OM width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "qa")
+    return <QA width={width} height={height} className={className} />;
+
+  if (code.toLocaleLowerCase() == "re")
+    return <RE width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ro")
+    return <RO width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "rs")
+    return <RS width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ru")
+    return <RU width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "rw")
+    return <RW width={width} height={height} className={className} />;
 
   return <div>please provide the country code</div>;
 };
