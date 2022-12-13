@@ -139,7 +139,29 @@ import { LT } from "./countries/lt";
 import { LU } from "./countries/lu";
 import { LV } from "./countries/lv";
 import { LY } from "./countries/ly";
-
+import { MA } from "./countries/ma";
+import { MC } from "./countries/mc";
+import { MD } from "./countries/md";
+import { ME } from "./countries/me";
+import { MF } from "./countries/mf";
+import { MG } from "./countries/mg";
+import { MH } from "./countries/mh";
+import { MK } from "./countries/mk";
+import { ML } from "./countries/ml";
+import { MM } from "./countries/mm";
+import { MN } from "./countries/mn";
+import { MO } from "./countries/mo";
+import { MP } from "./countries/mp";
+import { MQ } from "./countries/mq";
+import { MR } from "./countries/mr";
+import { MS } from "./countries/ms";
+import { MT } from "./countries/mt";
+import { MU } from "./countries/mu";
+import { MV } from "./countries/mv";
+import { MW } from "./countries/mw";
+import { MX } from "./countries/mx";
+import { MY } from "./countries/my";
+import { MZ } from "./countries/mz";
 export interface FlagProps {
   code: Lowercase<CountryCode> | Uppercase<CountryCode>;
   className?: string;
@@ -433,5 +455,51 @@ export const Flag = ({
     return <LV width={width} height={height} className={className} />;
   if (code.toLocaleLowerCase() == "ly")
     return <LY width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ma")
+    return <MA width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mc")
+    return <MC width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "md")
+    return <MD width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "me")
+    return <ME width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mf")
+    return <MF width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mg")
+    return <MG width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mh")
+    return <MH width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mk")
+    return <MK width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ml")
+    return <ML width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mm")
+    return <MM width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mn")
+    return <MN width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mo")
+    return <MO width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mp")
+    return <MP width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mq")
+    return <MQ width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mr")
+    return <MR width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ms")
+    return <MS width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mt")
+    return <MT width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mu")
+    return <MU width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mv")
+    return <MV width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mw")
+    return <MW width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mx")
+    return <MX width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "my")
+    return <MY width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "mz")
+    return <MZ width={width} height={height} className={className} />;
   return <div>please provide the country code</div>;
 };
