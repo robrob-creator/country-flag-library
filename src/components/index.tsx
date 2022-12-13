@@ -1,23 +1,22 @@
-/* eslint-disable prettier/prettier */
-export * from "./atoms/button";
-export * from "./atoms/inputs";
-export * from "./atoms/radioButtons";
-export * from "./atoms/toogles";
-export * from "./atoms/slider";
-export * from "./atoms/checkboxes";
-export * from "./atoms/Text";
-export * from "./atoms/icons";
-export * from "./atoms/option";
-export * from "./molecules/avatars";
-export * from "./molecules/dropdown";
-export * from "./molecules/list";
-export * from "./molecules/badges";
-export * from "./organism/navigation";
-export * from "./organism/cards";
-export * from "./organism/footer";
-export * from "./organism/modals";
-export * from "./organism/sideDisplay";
-export * from "./organism/form";
-export * from "./organism/layouts";
-export * from "./organism/banner";
-export * from "./organism/table";
+import { CountryCode } from "./types";
+import { AD } from "./countries/ad";
+import { AE } from "./countries/ae";
+export interface FlagProps {
+  code: Lowercase<CountryCode> | Uppercase<CountryCode>;
+  className?: string;
+  width?: string;
+  height?: string;
+}
+
+export const Flag = ({
+  code,
+  width = "30",
+  height = "30",
+  className,
+}: FlagProps) => {
+  if (code.toLocaleLowerCase() == "ad")
+    return <AD width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ae")
+    return <AE width={width} height={height} className={className} />;
+  return <div>please provide the country code</div>;
+};
