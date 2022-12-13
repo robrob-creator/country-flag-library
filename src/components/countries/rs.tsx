@@ -4,7 +4,7 @@ export interface LogoProps {
   height?: string;
 }
 
-export const RU = ({ width, height, className }: LogoProps) => {
+export const RS = ({ width, height, className }: LogoProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
