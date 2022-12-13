@@ -174,6 +174,21 @@ import { NP } from "./countries/np";
 import { NR } from "./countries/nr";
 import { NU } from "./countries/nu";
 import { NZ } from "./countries/nz";
+import { OM } from "./countries/om";
+import { PA } from "./countries/pa";
+import { PE } from "./countries/pe";
+import { PF } from "./countries/pf";
+import { PG } from "./countries/pg";
+import { PH } from "./countries/ph";
+import { PK } from "./countries/pk";
+import { PL } from "./countries/pl";
+import { PM } from "./countries/pm";
+import { PN } from "./countries/pn";
+import { PR } from "./countries/pr";
+import { PS } from "./countries/ps";
+import { PT } from "./countries/pt";
+import { PW } from "./countries/pw";
+import { PY } from "./countries/py";
 export interface FlagProps {
   code: Lowercase<CountryCode> | Uppercase<CountryCode>;
   className?: string;
@@ -538,5 +553,46 @@ export const Flag = ({
     return <NU width={width} height={height} className={className} />;
   if (code.toLocaleLowerCase() == "nz")
     return <NZ width={width} height={height} className={className} />;
+
+  if (code.toLocaleLowerCase() == "pa")
+    return <PA width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pe")
+    return <PE width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pf")
+    return <PF width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pg")
+    return <PG width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ph")
+    return <PH width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pk")
+    return <PK width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pl")
+    return <PL width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pm")
+    return <PM width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pn")
+    return <PN width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pr")
+    return <PR width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ps")
+    return <PS width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pt")
+    return <PT width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pn")
+    return <PN width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pr")
+    return <PR width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ps")
+    return <PS width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pt")
+    return <PT width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "pw")
+    return <PW width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "py")
+    return <PY width={width} height={height} className={className} />;
+
+  if (code.toLocaleLowerCase() == "om")
+    return <OM width={width} height={height} className={className} />;
+
   return <div>please provide the country code</div>;
 };
