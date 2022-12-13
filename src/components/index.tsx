@@ -162,6 +162,18 @@ import { MW } from "./countries/mw";
 import { MX } from "./countries/mx";
 import { MY } from "./countries/my";
 import { MZ } from "./countries/mz";
+import { NA } from "./countries/na";
+import { NC } from "./countries/nc";
+import { NE } from "./countries/ne";
+import { NF } from "./countries/nf";
+import { NG } from "./countries/ng";
+import { NI } from "./countries/ni";
+import { NL } from "./countries/nl";
+import { NO } from "./countries/no";
+import { NP } from "./countries/np";
+import { NR } from "./countries/nr";
+import { NU } from "./countries/nu";
+import { NZ } from "./countries/nz";
 export interface FlagProps {
   code: Lowercase<CountryCode> | Uppercase<CountryCode>;
   className?: string;
@@ -501,5 +513,30 @@ export const Flag = ({
     return <MY width={width} height={height} className={className} />;
   if (code.toLocaleLowerCase() == "mz")
     return <MZ width={width} height={height} className={className} />;
+
+  if (code.toLocaleLowerCase() == "na")
+    return <NA width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "nc")
+    return <NC width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ne")
+    return <NE width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "nf")
+    return <NF width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ng")
+    return <NG width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ni")
+    return <NI width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "nl")
+    return <NL width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "no")
+    return <NO width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "np")
+    return <NP width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "nr")
+    return <NR width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "nu")
+    return <NU width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "nz")
+    return <NZ width={width} height={height} className={className} />;
   return <div>please provide the country code</div>;
 };
