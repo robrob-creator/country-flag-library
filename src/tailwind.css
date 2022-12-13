@@ -13,3 +13,20 @@ input:checked ~ .dot {
 body {
   font-family: "Inter", sans-serif;
 }
+.cls-8 {
+  fill: #ffd200;
+}
+.cls-4 {
+  fill: #d40000;
+}
+.cls-8 {
+  fill-rule: evenodd;
+}
+.str1 {
+  stroke: #000;
+  stroke-width: 0.46;
+  stroke-miterlimit: 22.9256;
+}
+.fil3 {
+  fill: none;
+}
