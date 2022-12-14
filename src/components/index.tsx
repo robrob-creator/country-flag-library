@@ -216,6 +216,43 @@ import { SV } from "./countries/sv";
 import { SX } from "./countries/sx";
 import { SY } from "./countries/sy";
 import { SZ } from "./countries/sz";
+import { TC } from "./countries/tc";
+import { TD } from "./countries/td";
+import { TF } from "./countries/tf";
+import { TG } from "./countries/tg";
+import { TH } from "./countries/th";
+import { TJ } from "./countries/tj";
+import { TK } from "./countries/tk";
+import { TL } from "./countries/tl";
+import { TM } from "./countries/tm";
+import { TN } from "./countries/tn";
+import { TO } from "./countries/to";
+import { TR } from "./countries/tr";
+import { TT } from "./countries/tt";
+import { TV } from "./countries/tv";
+import { TW } from "./countries/tw";
+import { TZ } from "./countries/tz";
+import { UA } from "./countries/ua";
+import { UG } from "./countries/ug";
+import { UM } from "./countries/um";
+import { US } from "./countries/us";
+import { UY } from "./countries/uy";
+import { UZ } from "./countries/uz";
+import { VA } from "./countries/va";
+import { VC } from "./countries/vc";
+import { VE } from "./countries/ve";
+import { VG } from "./countries/vg";
+import { VI } from "./countries/vi";
+import { VN } from "./countries/vn";
+import { VU } from "./countries/vu";
+import { WF } from "./countries/wf";
+import { WS } from "./countries/ws";
+import { XK } from "./countries/xk";
+import { YE } from "./countries/ye";
+import { YT } from "./countries/yt";
+import { ZA } from "./countries/za";
+import { ZM } from "./countries/zm";
+import { ZW } from "./countries/zw";
 
 export interface FlagProps {
   code: Lowercase<CountryCode> | Uppercase<CountryCode>;
@@ -556,7 +593,6 @@ export const Flag = ({
     return <MY width={width} height={height} className={className} />;
   if (code.toLocaleLowerCase() == "mz")
     return <MZ width={width} height={height} className={className} />;
-
   if (code.toLocaleLowerCase() == "na")
     return <NA width={width} height={height} className={className} />;
   if (code.toLocaleLowerCase() == "nc")
@@ -581,10 +617,8 @@ export const Flag = ({
     return <NU width={width} height={height} className={className} />;
   if (code.toLocaleLowerCase() == "nz")
     return <NZ width={width} height={height} className={className} />;
-
   if (code.toLocaleLowerCase() == "om")
     return <OM width={width} height={height} className={className} />;
-
   if (code.toLocaleLowerCase() == "pa")
     return <PA width={width} height={height} className={className} />;
   if (code.toLocaleLowerCase() == "pe")
@@ -635,13 +669,121 @@ export const Flag = ({
     return <RU width={width} height={height} className={className} />;
   if (code.toLocaleLowerCase() == "rw")
     return <RW width={width} height={height} className={className} />;
-
   if (code.toLocaleLowerCase() == "sa")
     return <SA width={width} height={height} className={className} />;
   if (code.toLocaleLowerCase() == "sb")
     return <SB width={width} height={height} className={className} />;
   if (code.toLocaleLowerCase() == "sc")
     return <SC width={width} height={height} className={className} />;
-
+  if (code.toLocaleLowerCase() == "sd")
+    return <SD width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "se")
+    return <SE width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sg")
+    return <SG width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sh")
+    return <SH width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "si")
+    return <SI width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sj")
+    return <SJ width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sk")
+    return <SK width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sl")
+    return <SL width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sm")
+    return <SM width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sn")
+    return <SN width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "so")
+    return <SO width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sr")
+    return <SR width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ss")
+    return <SS width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "st")
+    return <ST width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sv")
+    return <SV width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sx")
+    return <SX width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sy")
+    return <SY width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sz")
+    return <SZ width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tc")
+    return <TC width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "td")
+    return <TD width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tf")
+    return <TF width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tg")
+    return <TG width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "th")
+    return <TH width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tj")
+    return <TJ width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tk")
+    return <TK width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tl")
+    return <TL width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tm")
+    return <TM width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tn")
+    return <TN width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "to")
+    return <TO width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tr")
+    return <TR width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tt")
+    return <TT width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tv")
+    return <TV width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tw")
+    return <TW width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "tz")
+    return <TZ width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ua")
+    return <UA width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ug")
+    return <UG width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "um")
+    return <UM width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "us")
+    return <US width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "uy")
+    return <UY width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "uz")
+    return <UZ width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "va")
+    return <VA width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "vc")
+    return <VC width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ve")
+    return <VE width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "vg")
+    return <VG width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "vi")
+    return <VI width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "vn")
+    return <VN width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "vu")
+    return <VU width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "wf")
+    return <WF width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ws")
+    return <WS width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "xk")
+    return <XK width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "ye")
+    return <YE width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "yt")
+    return <YT width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "za")
+    return <ZA width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "zm")
+    return <ZM width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "zw")
+    return <ZW width={width} height={height} className={className} />;
   return <div>please provide the country code</div>;
 };
