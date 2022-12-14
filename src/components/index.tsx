@@ -195,6 +195,27 @@ import { RO } from "./countries/ro";
 import { RS } from "./countries/rs";
 import { RU } from "./countries/ru";
 import { RW } from "./countries/rw";
+import { SA } from "./countries/sa";
+import { SC } from "./countries/sc";
+import { SB } from "./countries/sb";
+import { SD } from "./countries/sd";
+import { SE } from "./countries/se";
+import { SG } from "./countries/sg";
+import { SH } from "./countries/sh";
+import { SI } from "./countries/si";
+import { SJ } from "./countries/sj";
+import { SK } from "./countries/sk";
+import { SL } from "./countries/sl";
+import { SM } from "./countries/sm";
+import { SN } from "./countries/sn";
+import { SO } from "./countries/so";
+import { SR } from "./countries/sr";
+import { SS } from "./countries/ss";
+import { ST } from "./countries/st";
+import { SV } from "./countries/sv";
+import { SX } from "./countries/sx";
+import { SY } from "./countries/sy";
+import { SZ } from "./countries/sz";
 
 export interface FlagProps {
   code: Lowercase<CountryCode> | Uppercase<CountryCode>;
@@ -614,6 +635,13 @@ export const Flag = ({
     return <RU width={width} height={height} className={className} />;
   if (code.toLocaleLowerCase() == "rw")
     return <RW width={width} height={height} className={className} />;
+
+  if (code.toLocaleLowerCase() == "sa")
+    return <SA width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sb")
+    return <SB width={width} height={height} className={className} />;
+  if (code.toLocaleLowerCase() == "sc")
+    return <SC width={width} height={height} className={className} />;
 
   return <div>please provide the country code</div>;
 };
